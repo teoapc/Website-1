@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ana Teo</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+
+</head>
+<body>
+
+    <div class="text">
+        <div class="ana animated bounceInDown">
+            <h1>ANA</h1>
+        </div>
+
+        <div class="navbar animated fadeIn">
+            <ul>
+                <li><div class="hvr-underline-from-center" onclick="openNav()">PHOTOS</div></li>
+                <li><div class="hvr-underline-from-center" onclick="openNav2()">VIDEOS</div></li>
+                <li><div class="hvr-underline-from-center" onclick="openNav3()">PROJECTS</div></li>
+                <li><div class="hvr-underline-from-center" onclick="openNav4()">ABOUT</div></li>
+            </ul>
+        </div>
+
+        <div class="teo animated bounceInUp">
+            <h1>TEO</h1>
+        </div>
+
+     </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <ul>
+                <li><a href="photos.html">FILM</a></li>
+                <li><a href="#">DIGITAL</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="myNav2" class="overlay-videos">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+        <div class="overlay-content-videos">
+            <ul>
+                <li><a href="#">TRAVEL VIDEOS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="myNav3" class="overlay-projects">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+        <div class="overlay-content-projects">
+            <ul>
+                <li><a href="#">WEBSITES</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="myNav4" class="overlay-about">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+        <div class="overlay-content-about">
+            <p>This online portfolio is currently under construction</p>
+            </div>
+
+        </div>
+
+
+
+<script>
+    function openNav()
+    {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav()
+    {
+    document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+
+    <script>
+    function openNav2()
+    {
+    document.getElementById("myNav2").style.width = "100%";
+    }
+
+    function closeNav2()
+    {
+    document.getElementById("myNav2").style.width = "0%";
+    }
+    </script>
+
+    <script>
+    function openNav3()
+    {
+    document.getElementById("myNav3").style.width = "100%";
+    }
+
+    function closeNav3()
+    {
+    document.getElementById("myNav3").style.width = "0%";
+    }
+    </script>
+
+    <script>
+    function openNav4()
+    {
+    document.getElementById("myNav4").style.width = "100%";
+    }
+
+    function closeNav4()
+    {
+    document.getElementById("myNav4").style.width = "0%";
+    }
+    </script>
+</body>
+</html>
